@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF57FF6A1E069CE900C53C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF57FF691E069CE900C53C5D /* main.m */; };
+		FF57FF6D1E069CE900C53C5D /* SoundManagerExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF57FF6C1E069CE900C53C5D /* SoundManagerExampleAppDelegate.m */; };
+		FF57FF701E069CE900C53C5D /* SoundManagerExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF57FF6F1E069CE900C53C5D /* SoundManagerExampleViewController.m */; };
+		FF57FF731E069CE900C53C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF57FF711E069CE900C53C5D /* Main.storyboard */; };
+		FF57FF811E069D3700C53C5D /* sound1.caf in Resources */ = {isa = PBXBuildFile; fileRef = FF57FF7D1E069D3700C53C5D /* sound1.caf */; };
+		FF57FF821E069D3700C53C5D /* sound2.caf in Resources */ = {isa = PBXBuildFile; fileRef = FF57FF7E1E069D3700C53C5D /* sound2.caf */; };
+		FF57FF831E069D3700C53C5D /* track1.caf in Resources */ = {isa = PBXBuildFile; fileRef = FF57FF7F1E069D3700C53C5D /* track1.caf */; };
+		FF57FF841E069D3700C53C5D /* track2.caf in Resources */ = {isa = PBXBuildFile; fileRef = FF57FF801E069D3700C53C5D /* track2.caf */; };
+		FF57FF881E069D4500C53C5D /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF57FF871E069D4500C53C5D /* SoundManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF57FF651E069CE900C53C5D /* SoundManagerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundManagerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF57FF691E069CE900C53C5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF57FF6B1E069CE900C53C5D /* SoundManagerExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundManagerExampleAppDelegate.h; sourceTree = "<group>"; };
+		FF57FF6C1E069CE900C53C5D /* SoundManagerExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundManagerExampleAppDelegate.m; sourceTree = "<group>"; };
+		FF57FF6E1E069CE900C53C5D /* SoundManagerExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundManagerExampleViewController.h; sourceTree = "<group>"; };
+		FF57FF6F1E069CE900C53C5D /* SoundManagerExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundManagerExampleViewController.m; sourceTree = "<group>"; };
+		FF57FF721E069CE900C53C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF57FF761E069CE900C53C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF57FF7D1E069D3700C53C5D /* sound1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound1.caf; sourceTree = "<group>"; };
+		FF57FF7E1E069D3700C53C5D /* sound2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound2.caf; sourceTree = "<group>"; };
+		FF57FF7F1E069D3700C53C5D /* track1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = track1.caf; sourceTree = "<group>"; };
+		FF57FF801E069D3700C53C5D /* track2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = track2.caf; sourceTree = "<group>"; };
+		FF57FF861E069D4500C53C5D /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		FF57FF871E069D4500C53C5D /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF57FF621E069CE900C53C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF57FF5C1E069CE900C53C5D = {
+			isa = PBXGroup;
+			children = (
+				FF57FF851E069D4500C53C5D /* SoundManager */,
+				FF57FF7C1E069D3700C53C5D /* Sounds */,
+				FF57FF671E069CE900C53C5D /* SoundManagerExample */,
+				FF57FF661E069CE900C53C5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF57FF661E069CE900C53C5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF57FF651E069CE900C53C5D /* SoundManagerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF57FF671E069CE900C53C5D /* SoundManagerExample */ = {
+			isa = PBXGroup;
+			children = (
+				FF57FF6B1E069CE900C53C5D /* SoundManagerExampleAppDelegate.h */,
+				FF57FF6C1E069CE900C53C5D /* SoundManagerExampleAppDelegate.m */,
+				FF57FF6E1E069CE900C53C5D /* SoundManagerExampleViewController.h */,
+				FF57FF6F1E069CE900C53C5D /* SoundManagerExampleViewController.m */,
+				FF57FF711E069CE900C53C5D /* Main.storyboard */,
+				FF57FF761E069CE900C53C5D /* Info.plist */,
+				FF57FF681E069CE900C53C5D /* Supporting Files */,
+			);
+			path = SoundManagerExample;
+			sourceTree = "<group>";
+		};
+		FF57FF681E069CE900C53C5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF57FF691E069CE900C53C5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF57FF7C1E069D3700C53C5D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FF57FF7D1E069D3700C53C5D /* sound1.caf */,
+				FF57FF7E1E069D3700C53C5D /* sound2.caf */,
+				FF57FF7F1E069D3700C53C5D /* track1.caf */,
+				FF57FF801E069D3700C53C5D /* track2.caf */,
+			);
+			name = Sounds;
+			path = ../../Sounds;
+			sourceTree = "<group>";
+		};
+		FF57FF851E069D4500C53C5D /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				FF57FF861E069D4500C53C5D /* SoundManager.h */,
+				FF57FF871E069D4500C53C5D /* SoundManager.m */,
+			);
+			name = SoundManager;
+			path = ../../../SoundManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF57FF641E069CE900C53C5D /* SoundManagerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF57FF791E069CE900C53C5D /* Build configuration list for PBXNativeTarget "SoundManagerExample" */;
+			buildPhases = (
+				FF57FF611E069CE900C53C5D /* Sources */,
+				FF57FF621E069CE900C53C5D /* Frameworks */,
+				FF57FF631E069CE900C53C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundManagerExample;
+			productName = SoundManagerExample;
+			productReference = FF57FF651E069CE900C53C5D /* SoundManagerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF57FF5D1E069CE900C53C5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					FF57FF641E069CE900C53C5D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = FF57FF601E069CE900C53C5D /* Build configuration list for PBXProject "SoundManagerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF57FF5C1E069CE900C53C5D;
+			productRefGroup = FF57FF661E069CE900C53C5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF57FF641E069CE900C53C5D /* SoundManagerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF57FF631E069CE900C53C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF57FF821E069D3700C53C5D /* sound2.caf in Resources */,
+				FF57FF831E069D3700C53C5D /* track1.caf in Resources */,
+				FF57FF811E069D3700C53C5D /* sound1.caf in Resources */,
+				FF57FF731E069CE900C53C5D /* Main.storyboard in Resources */,
+				FF57FF841E069D3700C53C5D /* track2.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF57FF611E069CE900C53C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF57FF701E069CE900C53C5D /* SoundManagerExampleViewController.m in Sources */,
+				FF57FF881E069D4500C53C5D /* SoundManager.m in Sources */,
+				FF57FF6D1E069CE900C53C5D /* SoundManagerExampleAppDelegate.m in Sources */,
+				FF57FF6A1E069CE900C53C5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF57FF711E069CE900C53C5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF57FF721E069CE900C53C5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF57FF771E069CE900C53C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		FF57FF781E069CE900C53C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF57FF7A1E069CE900C53C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SoundManagerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SoundManagerTVOS.SoundManagerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF57FF7B1E069CE900C53C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SoundManagerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.SoundManagerTVOS.SoundManagerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF57FF601E069CE900C53C5D /* Build configuration list for PBXProject "SoundManagerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF57FF771E069CE900C53C5D /* Debug */,
+				FF57FF781E069CE900C53C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF57FF791E069CE900C53C5D /* Build configuration list for PBXNativeTarget "SoundManagerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF57FF7A1E069CE900C53C5D /* Debug */,
+				FF57FF7B1E069CE900C53C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF57FF5D1E069CE900C53C5D /* Project object */;
+}
