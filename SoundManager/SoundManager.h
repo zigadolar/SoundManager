@@ -40,6 +40,9 @@
 #if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 #define SM_USE_AV_AUDIO_PLAYER 1
+#elif TARGET_OS_TV
+#import <UIKit/UIKit.h>
+#define SM_USE_AV_AUDIO_PLAYER 1
 #else
 #import <Cocoa/Cocoa.h>
 #if !defined(SM_USE_AV_AUDIO_PLAYER) && \
